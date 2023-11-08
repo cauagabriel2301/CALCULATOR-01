@@ -13,8 +13,7 @@ function clearDisplay() {
   display.value = "";
 }
 
-function calculateResult() 
-{
+function calculateResult() {
   try {
     currentInput = eval(currentInput);
     display.value = currentInput;
