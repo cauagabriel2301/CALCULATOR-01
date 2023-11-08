@@ -4,7 +4,7 @@ let display = document.getElementById("display");
 let currentInput = "";
 
 function appendToDisplay(value) {
-  currentInput +=value;
+  currentInput+=value;
   display.value = currentInput;
 }
 
